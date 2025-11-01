@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.scripts]
-vmware-workstation-pro-mcp-server = "vmware_workstation_pro_mcp_server:main"
+vmware-workstation-pro-mcp-server = "vmware_workstation_pro_mcp_server.server:main"
 
 [build-system]
 requires = ["hatchling"]
