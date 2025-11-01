@@ -81,17 +81,16 @@ The API will be available at `http://localhost:8697` by default.
 ### 3. Configure the MCP Server
 
 ```json
-"vmware-workstation-pro": {
-  "isActive": true,
-  "name": "vmware-workstation-pro",
-  "type": "stdio",
-  "command": "uvx",
-  "args": [
-    "vmware-workstation-pro-mcp-server"
-  ],
-  "env": {
-    "VMREST_USER": "user",
-    "VMREST_PASS": "Password123!"
+{
+  "mcpServers": {
+    "vmware-workstation-pro": {
+      "command": "uvx",
+      "args": ["vmware-workstation-pro-mcp-server"],
+      "env": {
+        "VMREST_USER": "your-username",
+        "VMREST_PASS": "your-password"
+      }
+    }
   }
 }
 ```
