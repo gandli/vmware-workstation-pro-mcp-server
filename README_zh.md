@@ -9,7 +9,7 @@
 <a href="https://pypi.org/project/vmware-workstation-pro-mcp-server/"><img src="https://img.shields.io/pypi/v/vmware-workstation-pro-mcp-server?color=%2334D058&label=pypi" alt="PyPI version" /></a>
 <a href="https://pypi.org/project/vmware-workstation-pro-mcp-server/"><img src="https://img.shields.io/pypi/pyversions/vmware-workstation-pro-mcp-server.svg?color=brightgreen" alt="Python versions" /></a>
 <a href="https://github.com/gandli/vmware-workstation-pro-mcp-server/issues"><img src="https://img.shields.io/github/issues-raw/gandli/vmware-workstation-pro-mcp-server" alt="GitHub Issues" /></a>
-<a href="https://pepy.tech/projects/vmware-workstation-pro-mcp-server"><img alt="Pepy Total Downloads" src="https://img.shields.io/pepy/dt/vmware-workstation-pro-mcp-server?label=pypi%20%7C%20downloads&color=brightgreen"/></a>
+<a href="https://pypi.org/project/vmware-workstation-pro-mcp-server"><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/:period/vmware-workstation-pro-mcp-server"></a>
 <a href="https://github.com/gandli/vmware-workstation-pro-mcp-server/blob/main/LICENSE"><img src="https://img.shields.io/pypi/l/vmware-workstation-pro-mcp-server?color=brightgreen" alt="License" /></a>
 </p>
 
@@ -29,7 +29,7 @@
 
 ## 前置条件
 
-* **VMware Workstation Pro**（启用 REST API）
+* **需要 VMware Workstation 14 或更高版本**（启用 REST API）
 * **Python 3.10+**
 * **[uv](https://github.com/astral-sh/uv)**（推荐）或 **pip**
 
@@ -131,6 +131,7 @@ Press Ctrl+C to stop.
 
 ## 参考资料
 
+* [VMware Fusion MCP Server](https://github.com/yeahdongcn/vmware-fusion-mcp-server)
 * [FastMCP 文档](https://gofastmcp.com/)
 * [Model Context Protocol](https://modelcontextprotocol.io/)
 * [uvx](https://github.com/modelcontextprotocol/uvx)

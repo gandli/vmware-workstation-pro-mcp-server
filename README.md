@@ -9,7 +9,7 @@
 <a href="https://pypi.org/project/vmware-workstation-pro-mcp-server/"><img src="https://img.shields.io/pypi/v/vmware-workstation-pro-mcp-server?color=%2334D058&label=pypi" alt="PyPI version" /></a>
 <a href="https://pypi.org/project/vmware-workstation-pro-mcp-server/"><img src="https://img.shields.io/pypi/pyversions/vmware-workstation-pro-mcp-server.svg?color=brightgreen" alt="Python versions" /></a>
 <a href="https://github.com/gandli/vmware-workstation-pro-mcp-server/issues"><img src="https://img.shields.io/github/issues-raw/gandli/vmware-workstation-pro-mcp-server" alt="GitHub Issues" /></a>
-<a href="https://pepy.tech/projects/vmware-workstation-pro-mcp-server"><img alt="Pepy Total Downloads" src="https://img.shields.io/pepy/dt/vmware-workstation-pro-mcp-server?label=pypi%20%7C%20downloads&color=brightgreen"/></a>
+<a href="https://pypi.org/project/vmware-workstation-pro-mcp-server"><img alt="PyPI - Downloads" src="https://img.shields.io/pypi/:period/vmware-workstation-pro-mcp-server"></a>
 <a href="https://github.com/gandli/vmware-workstation-pro-mcp-server/blob/main/LICENSE"><img src="https://img.shields.io/pypi/l/vmware-workstation-pro-mcp-server?color=brightgreen" alt="License" /></a>
 </p>
 
@@ -29,7 +29,7 @@ An **MCP (Model Context Protocol)** server for managing **VMware Workstation Pro
 
 ## Prerequisites
 
-- **VMware Workstation Pro** (with REST API enabled)
+- **VmWare Workstation 14 or higher is required** (with REST API enabled)
 - **Python 3.10+**
 - **[uv](https://github.com/astral-sh/uv)** (recommended) or **pip**
 
@@ -131,12 +131,12 @@ The API will be available at `http://localhost:8697` by default.
 
 ## References
 
+- [VMware Fusion MCP Server](https://github.com/yeahdongcn/vmware-fusion-mcp-server)
 - [FastMCP Documentation](https://gofastmcp.com/)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [uvx](https://github.com/modelcontextprotocol/uvx)
 - [Fetch Server Example](https://github.com/modelcontextprotocol/servers/tree/main/src/fetch)
 - [VMware Workstation REST API](https://developer.broadcom.com/xapis/vmware-workstation-pro-api/latest/)
-
 
 ## Star History
 
