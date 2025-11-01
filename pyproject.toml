@@ -9,3 +9,6 @@ dependencies = [
     "httpx>=0.28.1",
     "fastmcp>=2.13.0.2",
 ]
+
+[project.scripts]
+vmware-workstation-pro-mcp-server = "vmware_workstation_pro_mcp_server:main"
