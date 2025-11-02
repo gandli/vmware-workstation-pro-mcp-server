@@ -1,6 +1,6 @@
 [project]
 name = "vmware-workstation-pro-mcp-server"
-version = "0.1.8"
+version = "0.1.9"
 description = "A MCP server for managing VMware Workstation Pro VMs via REST API"
 readme = "README.md"
 license = "MIT"
@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-vmware-workstation-pro-mcp-server = "vmware_workstation_pro_mcp_server.server:main"
+vmware-workstation-pro-mcp-server = "main:main"
 
 [build-system]
 requires = ["hatchling"]
