@@ -1,6 +1,6 @@
 [project]
 name = "vmware-workstation-pro-mcp-server"
-version = "0.1.10"
+version = "0.1.11"
 description = "A MCP server for managing VMware Workstation Pro VMs via REST API"
 readme = "README.md"
 license = "MIT"
@@ -24,11 +24,7 @@ packages = ["src/vmware_workstation_pro_mcp_server"]
 
 [tool.hatch.build.targets.sdist]
 include = [
-    "src/vmware_workstation_pro_mcp_server",
-    "main.py",
-    "README.md",
-    "LICENSE",
+    "/src/vmware_workstation_pro_mcp_server",
+    "/README.md",
+    "/LICENSE",
 ]
-
-[tool.hatch.build]
-sources = ["src/vmware_workstation_pro_mcp_server"]
